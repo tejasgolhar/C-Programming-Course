@@ -28,7 +28,7 @@ int main(){
     // int a =3, b=9;
     // char d='d';
 
-    // Comparison operators
+    // Comparison/Relational operators
     cout<<"Following are the Comparison Operators in C++"<<endl;
     cout<<"The value of a == b is "<<(a==b)<<endl;
     cout<<"The value of a != b is "<<(a!=b)<<endl;
