@@ -4,8 +4,10 @@ using namespace std;
 
 int main()
 {   
-    //           ******SWITCH Control Statement*******
+    //       ******   SWITCH Control Statement      *******
+
     //Program to Strictly Check Whether you are Young, Perfect or Overaged for Military Recruitment Drive
+    
     int age;
     cout<<"\nPlease Provide your age in numerical value"<<endl;
     cout<<"\nTo select your age group enter the numerical value as follows\n 0 - for Age between 1 - <19 yrs"<<endl;

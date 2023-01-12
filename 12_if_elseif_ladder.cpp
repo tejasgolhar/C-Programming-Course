@@ -12,7 +12,7 @@ int main()
 
     if(age>0 && age<19)
     {
-        cout<<"Thanks Dear for interest ! But you are young to join military\nKeep yourself training"<<endl;
+        cout<<"Thanks Dear for interest ! But you are young to join military\nContinue to follow training"<<endl;
     }
     else if(age>=19 && age<35){
         cout<<"Congratulations ! You are perfect to join military in this age"<<endl;
