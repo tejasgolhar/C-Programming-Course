@@ -6,7 +6,7 @@ int main(){
     
     //*********   Address of a variable [ ADDRESS OF OPERATOR (&) ]  *******
 
-    //  '&n' denotes the address of value stored in variable n in the main memory
+    //  '&n' denotes the address of value stored in variable 'n' in the main memory
     
     int a;
     cout<<"Enter the value for variable 'a' below - "<<endl;
@@ -23,7 +23,7 @@ int main(){
 
     //    Variable 'b' stores the address value of 'a' i.e., '&a'
 
-     cout<<"The value stored at memory address 'b' i.e., value of 'a' you entered is \n"<<*b<<endl;
+     cout<<"The value stored at 'Memory address - b' i.e., value of 'a' you entered is \n"<<*b<<endl;
 
     //    But '*b' denotes the actual value stored at the memory location encoded by variable 'b' which is nothing but '&a'     
 
