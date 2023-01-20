@@ -7,16 +7,21 @@ int main(){
 
 
     //                 ******Build in Data types********
-    // int a, b, c;
-    // cout<<"Enter the value of a:"<<endl;
-    // cin>>a;
-    // cout<<"Enter the value of b:"<<endl;
-    // cin>>b;
-    // c = a + b;
-    // cout<<"The sum is "<<c<<endl;
-    // cout<<"The global c is "<<::c;
+   
+   /*
+    int a, b, c;
+    cout<<"Enter the value of a:"<<endl;
+    cin>>a;
+    cout<<"Enter the value of b:"<<endl;
+    cin>>b;
+    c = a + b;
+    cout<<"The sum is "<<c<<endl;
+    cout<<"The global c is "<<::c;
 
-    
+    */
+
+
+
     //            *****   Call the value stored in the global variable    *****
     
     int a=45;   //regenerated the variable with same name
