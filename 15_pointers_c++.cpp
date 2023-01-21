@@ -4,30 +4,66 @@ using namespace std;
 int main(){
     
     
-    //*********   Address of a variable [ ADDRESS OF OPERATOR (&) ]  *******
+    //   *********   Address of a variable [ ADDRESS OF OPERATOR (&) ]  *******
 
     //  '&n' denotes the address of value stored in variable 'n' in the main memory
-    
-    int a;
-    cout<<"Enter the value for variable 'a' below - "<<endl;
-    cin>>a;
-    cout<<"\nThe address of 'a' in main memory is \n"<<&a<<endl;
-    
     //NOTE:     An address is alloted whenever the programs is run
 
 
 
+    //  **** POINTER GENERATION ****
 
-    int * b = &a;       //*********  GENERATION OF POINTER VARIABLE **********
-    cout<<"The value of 'b' i.e., Address of 'a' is \n"<<b<<endl;
 
-    //    Variable 'b' stores the address value of 'a' i.e., '&a'
+    string food;  // A food variable of type string
+    cout<<"Enter the food you want to store in godown:\n"<<food;
+    cin>>food;
+    string* ptr = &food;    // A pointer variable, with the name ptr, that stores the address of food
 
-     cout<<"The value stored at 'Memory address - b' i.e., value of 'a' you entered is \n"<<*b<<endl;
+    // Output the value of food (Pizza)
+    cout << "\nOutput the value of food\n:"<< food ;
 
-    //  '*b' denotes the actual value stored at the memory location encoded by variable 'b' which is nothing but '&a'     
+    // Output the memory address of food
+    //  cout << "\nOutput the memory address of food\n"<< &food ;
 
-    //  The variable that can store the address of a value stored in pre-specified variable is called ****Pointer Variable*****
+
+
+
+
+
+    //     *****  REFERENCING   ********
+
+    // Output the memory address of food with the pointer 
+    cout << "\nOutput the memory address of food\n:"<< ptr ;
+    
+
+
+
+
+    //     ****  DEREFERENCING   ********
+
+    // Output the value of food with the pointer 
+    cout << "\nOutput the value of food \n:"<< *ptr;
+
+
+
+
+    //    ****** UPDATING THE VALUE OF THE POINTER   *******  
+
+    // Change the value of the pointer
+    cout<<"\nUpdate the godown storage with another food:\n ";
+    cin>>*ptr;
+
+    // Output the new value of the pointer
+    cout << "\nOutput the new value of the pointer\n"<< *ptr;
+
+    // Output the new value of the food variable
+    cout << "\nOutput the new value of the food variable\n"<< food;
+
+    // Output the memory address of the new food with the pointer 
+    //  Location remains the same even if the pointer value is updated
+    
+    cout << "\nOutput the memory address of the updated food\n:"<< ptr ;
+
     
     return 0;
 }
