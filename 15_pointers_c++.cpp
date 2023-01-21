@@ -25,7 +25,7 @@ int main(){
 
      cout<<"The value stored at 'Memory address - b' i.e., value of 'a' you entered is \n"<<*b<<endl;
 
-    //    But '*b' denotes the actual value stored at the memory location encoded by variable 'b' which is nothing but '&a'     
+    //  '*b' denotes the actual value stored at the memory location encoded by variable 'b' which is nothing but '&a'     
 
     //  The variable that can store the address of a value stored in pre-specified variable is called ****Pointer Variable*****
     
