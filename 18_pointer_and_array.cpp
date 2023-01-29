@@ -7,6 +7,7 @@ int main(){
 
     // Formula for Pointer Arithmetic is :
     //           Address(new) = Address(base) + ( size_of_datatype * Index value )
+    //               (p+i) = p + ( i * n )
 
 
     int n;
