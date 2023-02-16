@@ -2,8 +2,10 @@
 using namespace std;
 
 
+//**********    STRUCTURE IN C++   ***********
 
-struct student    // structure for student is generated here with the common name "student"
+struct student    
+// structure for student is generated here with the common name "student"
 {
     //the entities here are of different datatypes
 
@@ -13,8 +15,12 @@ struct student    // structure for student is generated here with the common nam
     float sgpa;
 };
 
-int main(){
+
+int main(){ 
     
+    //*******      STRUCTURES IN C++     ***********
+
+
     // structure details for one student named "tejas"
     struct student s1;  
     s1.username = "Raviteja";
@@ -27,5 +33,7 @@ int main(){
     cout<<"roll number = "<<s1.roll<<endl;
     cout<<"section = "<<s1.section<<endl;
     cout<<"sgpa = "<<s1.sgpa<<endl;
+
+   
      return 0;
 }

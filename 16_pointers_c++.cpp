@@ -23,7 +23,7 @@ int main(){
     cout << "\nOutput the value of food\n:"<< food ;
 
     // Output the memory address of food
-    //  cout << "\nOutput the memory address of food\n"<< &food ;
+    //  cout << "\nOutput  the memory address of food\n"<< &food ;
 
 
 
