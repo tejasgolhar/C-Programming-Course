@@ -9,7 +9,7 @@ int sum(int a,int b)
 //int sum(int a,b)  ----- NOT Acceptable
 //int sum(int, int)  ------ Acceptable
 
-//NOTE : here, a and b are FORMAL PARAMETERS (need not to be specified always)
+//NOTE : here, a and b are FORMAL PARAMETERS (need not to be always specified )
 
 //the parentheses content represents the arguements of the function
 {
