@@ -8,7 +8,7 @@ void swapPointer(int*a, int*b)  // *******  DEFERENCING  **********
 //this will generate pointer varaiables which have the capacity to store the addresses of the variables
 //they will store the addresses of x and y but not the values
 {
-    int temp= *a; // this will equate the value of address location to the variable
+    int temp= *a; // this will equate the "value" of address location to the variable
     *a = *b;
     *b = temp; 
 }
