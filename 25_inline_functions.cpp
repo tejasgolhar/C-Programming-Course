@@ -25,7 +25,7 @@ using namespace std;
 
         4. Don't use the inline function in case of -
             **Static variables when present in the function
-            **When theres recurssions
+            **When there is recursion used
             **not recommended when there are loops present in the function 
     */
 inline int sum(int x, int y){
