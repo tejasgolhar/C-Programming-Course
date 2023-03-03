@@ -24,13 +24,13 @@ float moneyReceived(int currentMoney, float factor=1.04)
 //   Hence, is called constant arguement
 
 int strlen(const char *p){
-
+return 0;
 }
 
 
 int main(){
     int money = 100000;
-    cout<<"If you have "<<money<<" Rs in your bank account, you will recive "<<moneyReceived(money)<< "Rs after 1 year"<<endl;
+    cout<<"\nIf you have "<<money<<" Rs in your bank account, you will recive "<<moneyReceived(money)<< "Rs after 1 year"<<endl;
     cout<<"For VIP: If you have "<<money<<" Rs in your bank account, you will recive "<<moneyReceived(money, 1.1)<< " Rs after 1 year";
     return 0;
 }
