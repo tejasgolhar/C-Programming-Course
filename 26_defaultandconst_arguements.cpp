@@ -23,10 +23,13 @@ float moneyReceived(int currentMoney, float factor=1.04)
 //   HERE, in the below function, the value of 'p' is constant and cannot be modified anyhow 
 //   Hence, is called constant arguement
 
-int strlen(const char *p){
-return 0;
-}
-
+/*
+   //   Here, the value of *p is constant and can't be modified 
+        int strlen(const char *p)
+        {
+        return 0;
+        }
+*/
 
 int main(){
     int money = 100000;
