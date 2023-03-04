@@ -27,7 +27,8 @@ int factorial(int a)
       4 * 3 * 2 * factorial (2-1 = 1)
                    ___but a = 1, the "if" condition will become true and the whole function will return the value "1"
     
-     Hence, for a=4; answer = 4*3*2*1 = 24 */
+     Hence, for a=4; answer = 4*3*2*1 = 24
+*/
 
 }
 
